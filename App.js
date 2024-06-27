@@ -4,15 +4,11 @@ export default function App() {
     return (
         <View style={styles.container}>
             <View>
-                <Text
-                    style={styles.dummyText}
-                >
+                <Text  style={styles.dummyText} >
                     Another piece of text!
                 </Text>
             </View>
-            <Text
-                style={styles.dummyText}
-            >
+            <Text   style={styles.dummyText} >
                 Hello World!
             </Text>
             <Button title="Tap me!" />
